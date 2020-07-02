@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    scroll-behavior: smooth;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: #ddf3b0;
+    padding: 20px 40px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.mainHeader {
+    color: rgb(6, 26, 9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: rgba(6, 108, 108, 0.473) 4px 4px 2px;
+}
+
+.js-yogaTransform {
+    transform: rotate(180deg);
+}
+
+.js-profilePictureDisappear {
+    display: none;
+}
+
+.footer {
+    box-shadow: 15px 15px 35px 13px #aca6ffdb;
+    width: 60%;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    background-color: #c7eb7f;
+    color: #f88e47;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}

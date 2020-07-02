@@ -1,0 +1,38 @@
+.navBar {
+    margin: 30px 0px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.navBar__list {
+    list-style-type: none;
+    width: 100%;
+    padding-inline-start: 0px;
+}
+
+.navBar__item {
+    display: inline;
+}
+
+.navBar__link {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.15em;
+    background-color: #a4ffcf;
+    color: #000000;
+    border-radius: 20px;
+    line-height: 2.5;
+}
+
+.navBar__link:visited {
+    color: #000000;
+}
+
+.navBar__link:hover {
+    border: olive solid 1px;
+    padding: 9px 19px;
+}
+
+.navBar__link:active {
+    background-color: hsl(148, 97%, 73%);
+}
