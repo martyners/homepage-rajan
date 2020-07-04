@@ -3,10 +3,9 @@ console.log(" Łapa!");
 let hideImageButton = document.querySelector(".js-hideImageButton");
 let profilePicture = document.querySelector(".js-profilePicture");
 
-
 hideImageButton.addEventListener("click", () => {
     profilePicture.classList.toggle("js-profilePictureDisappear");
-    hideImageButton.innerText = profilePicture.classList.contains(".js-profilePictureDisappear") ? "Pojawiam się" : "Znikam"
+    hideImageButton.innerText = profilePicture.classList.contains("js-profilePictureDisappear") ? "Pojawiam się" : "Znikam"
 })
 
 let yogaButton = document.querySelector(".js-yogaButton");
